@@ -1,6 +1,7 @@
 import requests
 
-Bossfile = "test.txt"
+
+Bossfile = "web.txt"
 
 with open(Bossfile,'r',encoding="UTF-8") as file:
     readFile = file.readlines()
